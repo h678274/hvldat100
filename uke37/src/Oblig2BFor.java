@@ -3,7 +3,7 @@ import javax.swing.JOptionPane;
 public class Oblig2BFor {
 	public static void main(String[] args) {
 		int godkjentePoengsummer = 0;
-		for (int i = 0; godkjentePoengsummer < 2; i++) {
+		for (int i = 0; godkjentePoengsummer < 10; i++) {
 			
 			String poengtext = JOptionPane.showInputDialog("Oppgi poengsum");
 			int poeng=Integer.parseInt(poengtext);
